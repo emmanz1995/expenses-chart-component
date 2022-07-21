@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: hsl(27, 66%, 92%);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.my-balance-section {
+  background-color: hsl(10, 79%, 65%);
+  width: 350px;
+  margin-bottom: 15px;
+  padding: 17px 25px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-section {
+  background-color: #fff;
+  width: 350px;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.main-section > h3 {
+  color: hsl(25, 47%, 15%);
+  font-weight: 700;
+}
+
+.text-color {
+  color: hsl(27, 66%, 92%);
+}
+
+.total-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: solid 1px hsl(25, 47%, 15%);
+  padding-top: 10px;
+}
+
+.text-total h1 {
+  color: hsl(25, 47%, 15%);
+}
+
+.text-total span {
+  color: hsl(28, 10%, 53%);
+  font-size: 12px;
+}
+
+.text-stats {
+  text-align: right;
+  font-size: 12px;
+}
+
+.text-stats b {
+  color: hsl(25, 47%, 15%);
+}
+
+.text-stats span {
+  color: hsl(28, 10%, 53%);
+}
